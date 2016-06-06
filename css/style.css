@@ -93,7 +93,6 @@ h3 {
   overflow: hidden;
 }
 .our-featured-speaker-body,
-.sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
 .venue-left-body,
@@ -108,7 +107,6 @@ h3 {
   padding-top: 80px;
 }
 .our-featured-speaker-body,
-.sponsor-body,
 .about-our-event-left-body,
 .about-our-event-right-body,
 .venue-left-body,
@@ -124,7 +122,6 @@ h3 {
 }
 
 .header-body,
-.sponsor-body h2,
 .footer-body,
 .tab-content .testimonial-img,
 .contact-us-left h2,
@@ -824,11 +821,19 @@ h3 {
 .sponsor {
   background: #ffffff;
 }
-
+.sponsor-body-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .sponsor-header {
+    padding-bottom: 80px;
+}
+.sponsor-subheader {
     padding-bottom: 20px;
 }
-
+.sponsor-subheader h3 {
+    text-align: center;
+}
 .sponsor-body {
   position: inherit !important;
 }
